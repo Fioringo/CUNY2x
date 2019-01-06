@@ -3,7 +3,7 @@
 // Author: Andrey Shtukenberg
 // Returns a number depending on array contents
 
-Array.prototype.mySome = function (callback, currentValue) {
+Array.prototype.myReduce = function (callback, currentValue) {
     var accumulator;
     if (currentValue === undefined)
         accumulator = undefined;

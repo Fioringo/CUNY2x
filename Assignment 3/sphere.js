@@ -1,3 +1,8 @@
+// CUNY2x
+// Assignment 3 - Bonus - Sphere Calculations
+// Author: Andrey Shtukenberg
+// Calculates a sphere's volume with a given volume
+
 function formSubmit(form){
     let r = document.getElementById("radius").value;
     let x = Math.PI * 4 * Math.pow(r, 3) / 3;

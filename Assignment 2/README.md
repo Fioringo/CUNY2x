@@ -1,5 +1,7 @@
-## CUNY2x - Assignment 2
+## Assignment 3
 
 ##### Author: Andrey Shtukenberg
 
-This directory contains files related to Assignment 2. Each javascript function assigned was implemented  in a separate file, with their filenames corresponding to contents.
+**Description**
+
+Contains files for assignment 3.

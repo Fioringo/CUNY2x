@@ -1,7 +1,5 @@
-## Assignment 1
+## CUNY2x - Assignment 2
 
-##### Authors: Jasmeet Narang, Kent Feng, and Andrey Shtukenberg
+##### Author: Andrey Shtukenberg
 
-**Description**
-
-Here are some facts about the company where we will be interning at. It's called [shared_studios](https://www.sharedstudios.com) and we are excited to show what it's about!
+This directory contains files related to Assignment 2. Each javascript function assigned was implemented  in a separate file, with their filenames corresponding to contents.

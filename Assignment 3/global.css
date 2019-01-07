@@ -9,9 +9,9 @@ form {
     background-color: #B8EF83;
     border-radius: 10px;
     width: 13%;
-    height: 25%;
     min-width: 15em;
-    min-height: 10.3em;
+/*    height: 25%;*/
+/*    min-height: 10.3em;*/
     overflow: hidden;
     padding: 0.1em;
     margin: 0 auto;
@@ -58,4 +58,13 @@ button {
 
 button:hover {
     background-color: #F9F871;
+}
+
+.result-container {
+    display: none;
+    background-color: #7DE19B;
+    border-radius: 10px;
+    padding: 0.1em;
+    margin: 0.1em;
+    overflow: hidden;
 }

@@ -8,11 +8,13 @@
     </head>
     <body>
         <form name="form" id="form" method="POST" onsubmit = "formSubmit(this.form); return false;">
-            <div> Radius:</div><input type="numeric" id="radius">
+            <div> Radius:</div><input type="number" id="radius" min="0">
                 <br>
             <button type="submit"> Submit </button>
-            <div id="result"> </div>
-            <h1 id = "output"> </h1>
+            <div class="result-container" id="result-container">
+                <div id="result"> </div>
+                <h1 id = "output"> </h1>
+            </div>
         </form>
     </body>
 </html>

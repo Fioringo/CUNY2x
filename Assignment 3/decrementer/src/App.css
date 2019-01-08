@@ -1,3 +1,11 @@
+/*
+  CUNY2x
+  Assignment 4
+  Author: Andrey Shtukenberg
+  Description: Decrementer CSS file
+  Notes: Usually used with Safari. Chrome and Firefox not guranteed to work.
+*/
+
 body {
   background-color: #00456B;
   display: flex;
@@ -28,6 +36,7 @@ body {
   font-size: 12em;
   padding: 0em;
   margin: 0em;
+  font-weight: bold;
 }
 
 .decrementerBtn {

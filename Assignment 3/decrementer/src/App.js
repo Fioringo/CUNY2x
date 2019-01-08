@@ -1,3 +1,10 @@
+/*
+  CUNY2x
+  Assignment 4
+  Author: Andrey Shtukenberg
+  Decrementer App.js file, with all of the required functionality.
+*/
+
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './App.css';

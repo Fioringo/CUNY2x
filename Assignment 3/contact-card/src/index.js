@@ -1,3 +1,10 @@
+/*
+  CUNY2x
+  Assignment 4
+  Author: Andrey Shtukenberg
+  Contact Cards index.js file
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

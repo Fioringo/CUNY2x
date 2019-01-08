@@ -1,0 +1,106 @@
+/*
+  CUNY2x
+  Assignment 4
+  Author: Andrey Shtukenberg
+  Description: Contact Cards CSS part
+  Notes: Usually used with Safari. Chrome and Firefox not guranteed to work.
+*/
+
+/* Animation to blur content */
+@keyframes blurr {
+  from {
+    filter: blur(0px);
+  }
+  to {
+    filter: blur(1.5px);
+  }
+}
+
+/* Animation to "un-blur" content */
+@keyframes deblurr {
+  from {
+    filter: blur(1.5px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
+body {
+  background-color: #00456B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Avenir Next;
+  height: 100vh;
+}
+
+.Name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.ContactCard {
+  background-color: #FCBF49;
+  border-radius: 10px;
+  padding: 0.1em auto;
+  margin: 0.1em auto;
+  width: 23%;
+  min-width: 200px;
+  min-height: 10vh;
+  max-width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
+  padding-top: 10% 0;
+}
+
+.Cards {
+  background-color: #F77F00;
+  width: 100%;
+  padding: 0.2em;
+  margin: 0.2em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 10px;
+  align-self: center;
+  vertical-align: middle;
+}
+
+/* Special Blur effect for each card to be highlighted */
+/* START */
+.ContactCard:hover {
+  background-color: #F2C810;
+}
+
+.Cards:hover > .ContactCard {
+  animation: blurr 0.1s 1;
+  filter: blur(1.5px);
+}
+
+.Cards:hover > .ContactCard:hover {
+  animation: deblurr 0.1s 1;
+  filter: blur(0px);
+}
+/* END */
+
+.Centerer {
+  /*height: 1.1em;*/
+  padding-top: 0.8em;
+}
+
+/* For mobile use, or thin screens (in terms of width) */
+@media only screen and (max-width:700px){
+  .Cards {
+    width:220px;
+    min-height: 230px;
+    flex-direction: column;
+    padding: 0.1em;
+    margin: 0.1em;
+  }
+};

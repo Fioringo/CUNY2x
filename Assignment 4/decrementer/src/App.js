@@ -7,8 +7,6 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-// import {hotkeys} from 'react-keyboard-shortcuts';
-// import {hotkeys_display} from 'react-keyboard-shortcuts';
 import './App.css';
 
 class Decrementer extends Component {
@@ -35,6 +33,10 @@ class Decrementer extends Component {
     }
   }
 
+  increment(){
+    
+  }
+
   reset(){
     this.counter = 0;
     this.setState({
@@ -46,9 +48,12 @@ class Decrementer extends Component {
   render() {
     return(
         <div className="main">
-          <div className="number">{String(this.props.number - this.counter)}</div>
+          <div className = "button-container">
+            <div id="empty"></div>
+            <div className="number">{String(this.props.number - this.counter)}</div>
+            <button className={String(this.state.resetState)} onClick={() => this.reset()}></button>
+          </div>
           <button className="decrementerBtn" onClick={() => this.decrement()}>Subtract 1</button>
-          <button className={String(this.state.resetState)} onClick={() => this.reset()}> Reset </button>
         </div>
       )
   };

@@ -1,0 +1,110 @@
+/*
+  CUNY2x
+  An Exercise
+  Author: Andrey Shtukenberg
+  Description: Form editing css file
+  Notes: Usually used with Safari. Chrome and Firefox not guranteed to work.
+*/
+
+body {
+  background-color: #00456B;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.2em;
+  margin: 0.2em;
+  font-size: 0.8em;
+  text-align: center;
+  width: auto;
+  /*min-width: 8vw;*/
+}
+
+button {
+  border: 0 solid black;
+  background-color: #FCBF49;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+button:hover {
+  color: white;
+  background-color: #D62828;
+}
+
+.main {
+  background-color: #F77F00;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0.1em;
+  border-radius: 10px;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #F2C810;
+  color: black;
+  border-radius: 10px;
+  padding: 0.1em;
+  margin: 0.1em;
+  font-size: 1.5em;
+  width: auto;
+}
+
+.FirstName {
+  padding: 0.1em;
+  margin-right: 0.2em;
+  text-align: right;
+}
+
+.LastName {
+  padding: 0.1em;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.save {
+  border: 0 solid black;
+  background-color: #14725B;
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.save:hover {
+  /*background-color: #1B9B7B;*/
+  background-color: #F2C810;
+}
+
+.cancel {
+  border: 0 solid black;
+  background-color: #D62828;
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.cancel:hover {
+  /*background-color: #1B9B7B;*/
+  background-color: #F2C810;
+}

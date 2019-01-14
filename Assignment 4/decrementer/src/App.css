@@ -1,0 +1,93 @@
+/*
+  CUNY2x
+  Assignment 4
+  Author: Andrey Shtukenberg
+  Description: Decrementer CSS file
+  Notes: Usually used with Safari. Chrome and Firefox not guranteed to work.
+*/
+
+body {
+  background-color: #00456B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Avenir Next;
+  height: 100vh;
+}
+
+.main {
+  background-color: #F77F00;
+  width: 100%;
+  padding: 0.2em;
+  margin: 0.1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 10px;
+  align-self: center;
+}
+
+.number {
+  font-size: 12em;
+  padding: 0em;
+  margin: 0em;
+  font-weight: bold;
+  flex: 9;
+  text-align: center;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#empty{
+  flex: 1;
+}
+
+.decrementerBtn {
+  background-color: #FCBF49;
+  border-radius: 10px;
+  font-size: 6em;
+  border: 0 solid black;
+  margin: 0;
+  padding: 0.2em;
+  margin-bottom: 0.05em;
+  cursor: pointer;
+}
+
+.decrementerBtn:hover {
+  background-color: #F2C810;
+}
+
+.noResetBtn {
+  z-index: -10;
+}
+
+.resetBtn {
+  display: flex;
+  align-items: flex-end;
+  background-image: url(./reset.png);
+  background-repeat: no-rep;
+  background-color: #FCBF49;
+  background-size: 100%;
+  border-radius: 10px;
+  border: 0 solid black;
+  /*padding: 0.2em;*/
+  margin: 0.1em;
+  width: 7vh;
+  height: 7vh;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.resetBtn:hover {
+  color: white;
+  background-color: #D62828;
+}

@@ -4,4 +4,4 @@
 
 **Description**
 
-This directory contains React Exercises.
+Contains files for assignment 3.

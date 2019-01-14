@@ -1,3 +1,9 @@
+/*
+ CUNY2x
+ Assignment 3
+ Author: Andrey Shtukenberg
+ Global CSS file for all of the webpages in the assignment
+*/
 body {
     width: 97%;
     font-family: Trebuchet MS;
@@ -9,9 +15,7 @@ form {
     background-color: #B8EF83;
     border-radius: 10px;
     width: 13%;
-    height: 25%;
     min-width: 15em;
-    min-height: 10.3em;
     overflow: hidden;
     padding: 0.1em;
     margin: 0 auto;
@@ -54,8 +58,18 @@ button {
     border: 0 solid black;
     background-color: #4DCEAF;
     font-size: 0.71em;
+    text-align: center;
 }
 
 button:hover {
     background-color: #F9F871;
+}
+
+.result-container {
+    display: none;
+    background-color: #7DE19B;
+    border-radius: 10px;
+    padding: 0.1em;
+    margin: 0.1em;
+    overflow: hidden;
 }

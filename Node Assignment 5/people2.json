@@ -1,0 +1,31 @@
+{
+	"people":
+		[
+			"name": "Peter",
+			"age": "20"
+		],
+		[
+			"name": "Sarah",
+			"age": "23"
+		],
+		[
+			"name": "Jessica",
+			"age": "30"
+		],
+		[
+			"name": "Edward",
+			"age": "40"
+		],
+		[
+			"name": "Lucian",
+			"age": "32"
+		],
+		[
+			"name": "Vel'Koz",
+			"age": "200"
+		],
+		[
+			"name": "Steven",
+			"age": "99"
+		]
+}

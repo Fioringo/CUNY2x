@@ -1,0 +1,31 @@
+{
+	"people":
+		[
+			"name": "Alex",
+			"age": "20"
+		],
+		[
+			"name": "Maya",
+			"age": "23"
+		],
+		[
+			"name": "John",
+			"age": "30"
+		],
+		[
+			"name": "Manuel",
+			"age": "40"
+		],
+		[
+			"name": "Erika",
+			"age": "32"
+		],
+		[
+			"name": "Lisa",
+			"age": "200"
+		],
+		[
+			"name": "Felix",
+			"age": "38"
+		]
+}
